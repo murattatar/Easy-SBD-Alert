@@ -53,7 +53,7 @@ def CheckSBD():
 
 html = '''
 <html>
-<title>Hey! SBD is over $''' + str(alertLevel) + '''</title>
+<title>Hey! SBD is over $''' + str(CheckSBD()) + '''</title>
 <head>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -95,7 +95,7 @@ html = '''
   <div class="middle">
     <div class="inner">
 
-  <div>Hey!  SBD is over <span class="cc">$''' + str(alertLevel) +'''</span>
+  <div>Hey!  SBD is over <span class="cc">$''' + str(CheckSBD()) +'''</span>
     <br>
     You should check it
   </div>
@@ -129,13 +129,5 @@ while 1:
     os.startfile("alert.html") # open alert.html
 
   time.sleep(checkTime*60) ## covert from minute to second and wait
-
-
-
-
-
-
-
-
 
 
