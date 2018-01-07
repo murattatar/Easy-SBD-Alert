@@ -15,8 +15,8 @@ You can use Easy SBD Alert tool (11 KB)
 
 ### Use
 * Write your SBD price level into **_alert_level.txt**
-* Write your check time (minutes) into **_check_every_N_minutes.txt**
-* Double Click on sbd_alert.py
+* Write your check time (N minutes) into **_check_every_N_minutes.txt**
+* Double click on **sbd_alert.py**
 
 * Minimize it with 4t Tray Minimizer
 Thats it!
