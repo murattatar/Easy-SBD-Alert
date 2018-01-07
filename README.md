@@ -1,5 +1,5 @@
 # Easy-SBD-Alert
-Easy Steem Dolar (SBD) Alert with sound
+Easy Steem Dollars (SBD) Alert with sound
 ---
 
 You can use Easy SBD Alert Toll (11 KB)
